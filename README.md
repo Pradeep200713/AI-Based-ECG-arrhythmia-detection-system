@@ -17,9 +17,18 @@ This project is a Machine Learning-based system that analyzes ECG signals to det
 - Flask  
 
 ## 📂 Project Structure
-- `train.py` → Model training  
-- `app.py` → Web application  
-- `README.md` → Documentation  
+- AI-ECG-Arrhythmia-Detection-System/
+│
+├── data/              # dataset
+├── models/            # trained model save
+├── notebooks/         # Jupyter files (optional)
+├── src/               # main code
+│   ├── train.py
+│   ├── predict.py
+│
+├── app.py             # UI / Flask / Streamlit
+├── requirements.txt   # dependencies
+├── README.md
 
 ## 📊 Dataset
 - MIT-BIH Arrhythmia Dataset  
